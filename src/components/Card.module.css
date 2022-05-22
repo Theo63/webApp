@@ -1,0 +1,21 @@
+.item {
+    margin-top: 0rem;
+    margin-left: 2rem;
+    border-width: 1rem;
+    
+  }
+  
+  .image {
+    max-width: 100%;
+    overflow: hidden;
+    
+
+  }
+  
+  .title {
+    background-color: bisque;
+    text-align: left;
+    text-indent: 5em;
+    padding: 1rem;
+  }
+

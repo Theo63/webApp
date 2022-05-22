@@ -1,0 +1,20 @@
+.item {
+    background-color:antiquewhite;
+    border-width: 1rem;
+    border-color: blue;
+    border-radius: 1em;
+    border-color: black;
+    height: fit-content;
+    
+  }
+
+.leftItem{
+  background-color: black;
+  padding-top: 2rem;
+  margin-top: 2rem;
+}
+
+.rightItem{
+  margin-top: 2rem;
+}
+  

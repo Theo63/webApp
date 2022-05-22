@@ -1,0 +1,32 @@
+.right_form {
+	margin: auto;
+	/* align-self: center; */
+	display: flex;
+	flex-direction: column;
+    min-width: 10%;
+    max-width: 20rem;
+
+    
+}
+
+
+#info {
+	line-height: 25rem;
+    width: auto;
+    padding: 0%;
+}
+
+
+.form_item {
+    text-align: center;
+	width: auto;
+}
+
+
+.content {
+    background-color: bisque;
+    text-align: left;
+    text-indent: 5em;
+    padding: 1rem;
+    width: auto;
+  }

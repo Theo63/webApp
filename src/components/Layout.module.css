@@ -1,0 +1,30 @@
+.main {
+	margin: 3rem auto;
+	width: 90%;
+	max-width: 40rem;
+}
+
+.footer {
+	margin-bottom: 0em;
+	background-color: #27ae60;
+	/* border-top:2px solid yellow; */
+	display: flex;
+	padding-top: 1em;
+	padding-bottom: 1em;
+
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column-reverse;
+}
+
+.footerText {
+	align-items: center;
+	color: white;
+	font-size: 15px;
+}
+
+.footer > a {
+	color: #fff;
+	text-decoration: none;
+}
