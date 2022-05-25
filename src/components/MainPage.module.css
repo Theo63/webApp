@@ -2,9 +2,10 @@
     background-color:antiquewhite;
     border-width: 1rem;
     border-color: blue;
-    border-radius: 1em;
     border-color: black;
     height: fit-content;
+    display: flex;
+    flex-direction: row;
     
   }
 
@@ -17,4 +18,10 @@
 .rightItem{
   margin-top: 2rem;
 }
+@media screen and (max-width: 768px) {
+  .item {
+    flex-direction: column;
+  }
+}
+
   

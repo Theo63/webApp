@@ -1,13 +1,14 @@
-import { React, useState } from 'react'
-import MainPage from './components/MainPage';
-import Footer from './components/Footer'
+import { React, useState } from "react";
+import MainPage from "./components/MainPage";
+import Footer from "./components/Footer";
+import UserFooter from "./components/UserFooter";
 
 function App() {
-  const [inputText, setInputText] = useState('')
+  const [inputText, setInputText] = useState("");
   return (
-    <div >
-        <MainPage />
-        <Footer />
+    <div>
+      <MainPage />
+      <UserFooter />
     </div>
   );
 }

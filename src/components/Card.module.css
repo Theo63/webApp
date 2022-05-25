@@ -5,12 +5,6 @@
     
   }
   
-  .image {
-    max-width: 100%;
-    overflow: hidden;
-    
-
-  }
   
   .title {
     background-color: bisque;
@@ -19,3 +13,17 @@
     padding: 1rem;
   }
 
+
+  @media screen and (max-width: 768px) {
+    .image {
+      /* width: 5rem; */
+      padding: 0;
+    }
+    .item {
+      margin-left: 0;
+    }
+    .title {
+      width: 100;
+    }
+  }
+  

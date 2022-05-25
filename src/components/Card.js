@@ -1,18 +1,25 @@
+import ReactPlayer from "react-player";
 
-import ReactPlayer from 'react-player'
-
-import classes from './Card.module.css'
-import MainPage from './MainPage'
+import classes from "./Card.module.css";
+import MainPage from "./MainPage";
 
 function Card(props) {
-	return (
-        <div className={classes.item}>
-            <div className={classes.title}>Presentation Window</div>
-            <div className={classes.image}>
-                <ReactPlayer controls url='https://www.youtube.com/watch?v=L1ung0wil9Y' width={1080} height={640} />
-            </div>
-        </div>
-	)
+  let width = window.innerWidth;
+  console.log(width);
+
+  return (
+    <div className={classes.item}>
+      <div className={classes.title}>Presentation Window</div>
+      <div className={classes.image}>
+        <ReactPlayer
+          controls
+          url="https://www.youtube.com/watch?v=L1ung0wil9Y"
+          width={width < 768 ? 300 : 1080}
+          height={width < 768 ? 175 : 640}
+        />
+      </div>
+    </div>
+  );
 }
 
-export default Card
+export default Card;
